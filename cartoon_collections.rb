@@ -23,7 +23,9 @@ def long_planeteer_calls(words)
   return false
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+def find_the_cheese(arr)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  if arr.each{|cheese|
+    cheese == cheese_types.each{|x| return x}
+  return cheese}
 end
