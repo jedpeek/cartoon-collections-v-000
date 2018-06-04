@@ -27,9 +27,8 @@ def find_the_cheese(arr)
   cheese_types = ["cheddar", "gouda", "camembert"]
   if arr.each{|cheese| cheese == cheese_types.each{|x| return x}
   return cheese
+}
 else
   return nil
-}
 end
-  return nil
 end
