@@ -28,4 +28,8 @@ def find_the_cheese(arr)
 i = 0
 while i < arr.size
   if arr[i] == cheese_types.each{|x| puts x}
+    return arr[i]
+  i += 1
+end
+return nil
 end
