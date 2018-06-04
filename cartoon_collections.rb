@@ -13,7 +13,14 @@ def summon_captain_planet(arr)
 end
 
 def long_planeteer_calls(words)
-  arr.each{|word| yield(word)}
+  i = 0
+  while i < words.length
+    if words[i].length > 4
+      return true
+    end
+    i += 1
+  end
+  return false
 end
 
 def find_the_cheese# code an argument here
