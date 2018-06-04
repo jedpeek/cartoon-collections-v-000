@@ -29,7 +29,8 @@ i = 0
 while i < arr.size
   if arr[i] == cheese_types.each{|x| puts x}
     return arr[i]
-end
+  end
   i += 1
+end
 return nil
 end
