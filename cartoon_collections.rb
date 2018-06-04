@@ -12,7 +12,10 @@ def summon_captain_planet(arr)
   arr.map!{|x| x.capitalize + "!"}
 end
 
-def long_planeteer_calls# code an argument here
+def long_planeteer_calls(arr)
+arr.each{|x|
+x.length < 4 ? true : false
+}
   # Your code here
 end
 
