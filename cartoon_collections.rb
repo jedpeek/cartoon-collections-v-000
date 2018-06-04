@@ -24,7 +24,7 @@ def long_planeteer_calls(words)
 end
 
 def find_the_cheese(arr)
-  cheese_types = ["cheddar", "gouda", "camembert"]
+cheese_types = ["cheddar", "gouda", "camembert"]
 i = 0
 while i < arr.size
   if cheese_types.inlcude?(arr[i])
