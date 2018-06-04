@@ -13,7 +13,7 @@ def summon_captain_planet(arr)
 end
 
 def long_planeteer_calls(words)
-(arr.each{|word| word.length > 4) ? true : false}
+(arr.each{|word| word.length > 4}) ? true : false
 return true
   # Your code here
 end
