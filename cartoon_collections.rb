@@ -27,7 +27,7 @@ def find_the_cheese(arr)
   cheese_types = ["cheddar", "gouda", "camembert"]
 i = 0
 while i < arr.size
-  if arr[i] == cheese_types.each{|x| puts x}
+  if arr[i] == cheese_types.each{|x| x}
     return arr[i]
   end
   i += 1
