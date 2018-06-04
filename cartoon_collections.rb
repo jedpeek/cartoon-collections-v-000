@@ -30,5 +30,4 @@ while i < arr.size
   return arr[i] if cheese_types.include?(arr[i])
   i += 1
   end
-nil
 end
