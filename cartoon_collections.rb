@@ -3,8 +3,9 @@ i = 0
 dwarves = []
 while i < arr.size
   dwarves << "#{i} #{arr[i]}"
-
-}
+  i += 1
+end
+puts dwarves
 end
 
 def summon_captain_planet# code an argument here
