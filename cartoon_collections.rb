@@ -9,8 +9,10 @@ puts dwarves.to_s
 end
 
 def summon_captain_planet(arr)
-  arr2 = arr.upcase
-return arr2
+  arr.map do |x|
+    x.upcase
+  end
+  arr
 end
 
 def long_planeteer_calls# code an argument here
