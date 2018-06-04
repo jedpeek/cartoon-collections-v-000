@@ -27,7 +27,7 @@ def find_the_cheese(arr)
 cheese_types = ["cheddar", "gouda", "camembert"]
 i = 0
 while i < arr.size
-  if cheese_types.inlcude?(arr[i])
+  if cheese_types.inlcude?(arr[i].to_s)
     return arr[i]
   end
   i += 1
