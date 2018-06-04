@@ -2,7 +2,7 @@ def roll_call_dwarves(arr)
 i = 0
 dwarves = []
 while i < arr.size
-  dwarves << "#{i} #{arr[i]}"
+  dwarves << "#{i + 1} #{arr[i]}"
   i += 1
 end
 puts dwarves.to_s
