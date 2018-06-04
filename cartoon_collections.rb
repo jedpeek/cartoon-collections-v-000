@@ -1,6 +1,9 @@
 def roll_call_dwarves(arr)
-  arr.each{|x|
-  puts "#{arr[x]} #{x}"
+i = 0
+dwarves = []
+while i < arr.size
+  dwarves << "#{i} #{arr[i]}"
+
 }
 end
 
